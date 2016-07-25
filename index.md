@@ -7,7 +7,7 @@ Here we maintain an updateable catalog of open source molecular modeling softwar
 
 Eventually we will deploy a less monolithic document with additional features (such as sorting and filtering), correct citations, and a better layout.  
 
-***Please contribute edits by forking the repository and submitting a pull request***.
+***Please contribute edits by forking [the repository](https://github.com/OpenSourceMolecularModeling/OpenSourceMolecularModeling.github.io) and submitting a pull request***.
 
 
   * [Methods](#methods)
