@@ -3,7 +3,7 @@ layout: default
 title: Open Source Molecular Modeling
 ---
 
-Here we maintain an updateable catalog of open source molecular modeling software, initially taken from our [paper](https://www.authorea.com/users/26858/articles/66197).
+Here we maintain an updateable catalog of open source molecular modeling software, initially taken from our [paper](http://www.sciencedirect.com/science/article/pii/S1093326316301188).
 
 Eventually we will deploy a less monolithic document with additional features (such as sorting and filtering), correct citations, and a better layout.  
 
