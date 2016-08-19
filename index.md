@@ -497,7 +497,7 @@ Quantum Chemistry
 | QMCPACK          | <http://qmcpack.org>                        |   BSD   |    A2    |          |
 | Quantum espresso | <http://www.quantum-espresso.org>           |   GPL   |    A1    |          |
 | RMG              | <http://rmgdft.sourceforge.net>             | BSD/GPL |    A1    |          |
-| SQ               | <https://sites.google.com/site/siamquantum> |   GPL   |    A2    |          |
+| Siam Quantum     | <https://sites.google.com/site/siamquantum> |   GPL   |    A2    |          |
 
 ABINIT can calculate the total energy, charge density and electronic structure of molecules and periodic solids with density functional theory (DFT) and Many-Body Perturbation Theory (MBPT), using pseudopotentials and a planewave or wavelet basis. ABINIT also can optimize the geometry, perform molecular dynamics simulations, or generate dynamical matrices, Born effective charges, and dielectric tensors and many more properties.
 
@@ -539,7 +539,7 @@ QUANTUM ESPRESSO is designed for modeling at the nanoscale using DFT, plane wave
 
 RMG is a DFT code that uses real space grids to provide high scalability across thousands of processors and GPU acceleration for both structural relaxation and molecular dynamics.
 
-Siam Quantum (SQ) is optimized for parallel computation and its capabilities include the calculation of Hartree-Fock and MP2 energies, minimum energy crossing point calculations, geometry optimization, population analysis, and quantum molecular dynamics.
+Siam Quantum (SQ) is optimized for parallel computation and its capabilities include the calculation of Hartree-Fock and MP2 energies, minimum energy crossing point calculations, geometry optimization, population analysis, and quantum molecular dynamics. DFT is available with various functionals such as the Dirac exchange, the VWN correlation, and the simplest yet accurate electron correlation energy, the so-called “Chachiyo's formula”.
 
 Helper Applications
 -------------------
