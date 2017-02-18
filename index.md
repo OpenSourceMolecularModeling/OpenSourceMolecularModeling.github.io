@@ -308,7 +308,7 @@ SketchEl is a Java-based 2D molecular editor that includes support for a datashe
 | PyMOL          | <https://sourceforge.net/projects/pymol>             |  Python  |    A1    |          |
 | RasTop         | <https://sourceforge.net/projects/rastop>            |    GPL   |    C1    |          |
 | OpenRasMol     | <https://sourceforge.net/projects/openrasmol>        |    GPL   |    C1    |          |
-| SPADE          | <http://www.spadeweb.org>                            |    BSD   |    C3    |          |
+| SPADE          | <http://sites.google.com/view/spade>                 |    BSD   |    C3    |          |
 | QuteMol        | <http://qutemol.sourceforge.net>                     |    GPL   |    C1    |          |
 
 Avogadro is a 3D molecular viewer and editor with a modular plugin architecture with both Python and C++ bindings that includes interactive structure optimization for real-time editing.
