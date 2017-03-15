@@ -108,6 +108,8 @@ Toolkits
 | SMSD                 | <http://www.ebi.ac.uk/thornton-srv/software/SMSD>                        |   CCAL   |    B2    |          |
 | Som-it<sup>TM</sup>  | <http://silicos-it.be>                                                   |   LGPL   |    C3    |          |
 | webchem              | <https://github.com/ropensci/webchem>                                    |    MIT   |    A2    |          |
+| MolGears             | <https://github.com/admed/molgears>                                      |    BSD   |    B3    | 
+| 
 
 
 The Biochemical Algorithms Library (BALL) provides an object-oriented C++ library for structural bioinformatics, and its capabilities include molecular mechanics, support for reading and writing a variety of file formats, protein-ligand scoring, docking, and QSAR modeling.
@@ -175,6 +177,8 @@ The Small Molecule Subgraph Detector (SMSD) is a Java library for calculating th
 Som-it<sup>TM</sup> is an R package for creating and visualizing self-organizing maps from large datasets.
 
 webchem is an R package for interfacing with a dozen different on-line resources for chemical data.
+
+Molgears is a database tool for storing chemical compounds, calculating descriptors, tracking synthesis, storing analytical and bioactivity data, managing samples library. Bioactivity is reported as IC50 results. Data can be filtered, analyzed and downloaded to various file formats.
 
 Standalone Programs 
 -------------------
