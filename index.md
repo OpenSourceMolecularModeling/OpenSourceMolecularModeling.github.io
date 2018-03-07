@@ -18,7 +18,7 @@ Eventually we will deploy a less monolithic document with additional features (s
     * [Standalone Programs](#standalone-programs)
     * [Graphical Development Environments](#graphical-development-environments)
   * [Visualization](#visualization)
-    * [2D Desktop Applications (Table [2ddesktopviz])](#2d-desktop-applications-table2ddesktopviz)
+    * [2D Desktop Applications](#2d-desktop-applications-table2ddesktopviz)
     * [3D Desktop Applications](#3d-desktop-applications)
     * [Web-Based Visualization](#web-based-visualization)
   * [QSAR/ADMET Modeling](#qsaradmet-modeling)
