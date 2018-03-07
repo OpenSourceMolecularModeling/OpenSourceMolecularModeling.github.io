@@ -653,7 +653,7 @@ Simulation Setup and Analysis
 | Name       | URL                                               |  License | Activity | Citation |
 |:-----------|:--------------------------------------------------|:--------:|:--------:|:--------:|
 | AmberTools | <http://ambermd.org>                              |    GPL   |    A1    |          |
-| LOOS       | <http://loos.sourceforge.net>                     |    GPL   |    A1    |          |
+| LOOS       | <http://grossfieldlab.github.io/loos/>            |    GPL   |    A1    |          |
 | lsfitpar   | <http://mackerell.umaryland.edu/~kenno/lsfitpar>  |    GPL   |    A2    |          |
 | MDAnalysis | <http://mdanalysis.org>                           |    GPL   |    A1    |          |
 | MDTraj     | [mdtraj.org](mdtraj.org)                          |   LGPL   |    A1    |          |
