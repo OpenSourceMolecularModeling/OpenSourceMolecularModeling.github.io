@@ -761,6 +761,7 @@ Docking and Scoring
 | PyRx                     | <http://pyrx.sourceforge.net>                          |   BSD   |    A1    |          |
 | rDock                    | <http://rdock.sourceforge.net>                         |   LGPL  |    C1    |          |
 | RF-Score                 | <https://github.com/HongjianLi/RF-Score>               |  Apache |    A2    |          |
+| SEED                     | <https://gitlab.com/CaflischLab/SEED>                  |   GPL   |    A1    |          |
 | smina                    | <https://sourceforge.net/projects/smina>               |   GPL   |    A1    |          |
 | VHELIBS                  | <http://urvnutrigenomica-ctns.github.io/VHELIBS>       |   GPL   |    A2    |          |
 | VinaLC                   | <http://mvirdb1.llnl.gov/static_catsid/vina>           |  Apache |    C2    |          |
@@ -794,6 +795,8 @@ PyRx is a visual interface for AutoDock and AutoDock Vina that simplifies settin
 rDock is designed for docking against proteins or nucleic acids and can incorporate user-specified constraints. It uses an empirical scoring function that includes solvent accessible surface area terms. A combination of genetic algorithms, Monte Carlo, and simplex minimization is used to explore the conformational space. Distinct scoring functions are provided for docking to proteins and nucleic acids.
 
 RF-Score uses a random forest classifier to score protein-ligand poses.
+
+SEED is a docking software specialized in fragment docking. The search algorithm is exhaustive (around user-defined binding pocket residues), the scoring function is based on a force field with implicit solvent (CHARMM + CGenFF + generalized Born-type implicit solvent)
 
 smina is a fork of AutoDock Vina designed to better support energy minimization and custom scoring function development (scoring function terms and atom type properties can be specified using a run-time configuration file). It also simplifies the process of setting up a docking run with flexible sidechains.
 
