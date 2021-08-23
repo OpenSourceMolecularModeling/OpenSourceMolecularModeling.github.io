@@ -236,6 +236,7 @@ Graphical Development Environments
 | Bioclipse   | <http://www.bioclipse.net>                 |  Eclipse |    B1    |          |
 | Galaxy Tool | <https://github.com/bgruening/galaxytools> | Academic |    A1    |          |
 | KNIME       | <https://www.knime.org>                    |    GPL   |    A1    |          |
+| MoleQueue   |  https://github.com/OpenChemistry/molequeue|    BSD   |    C2    |          |
 | Orange      | [orange.biolab.si](orange.biolab.si)       |    BSD   |    A1    |          |
 | SA2         | <http://sa2.sourceforge.net>               |    GPL   |    A1    |          |
 | Taverna     | <http://www.taverna.org.uk>                |   LGPL   |    A1    |          |
@@ -250,6 +251,8 @@ Bioclipse is a workbench, based on the Eclipse framework, for manipulating and a
 Galaxy is a web platform for exploring biomedical data and includes as a component a Chemical Toolbox that integrates a number of other cheminformatics tools to offer an array of molecular search, property calculation, clustering, and manipulation capabilities.
 
 The Konstanz Information Miner (KNIME) is a general workflow environment that includes a number of plugins for cheminformatics, such as CDK and RDKit modules, as well as bioinformatics and machine learning modules.
+
+MoleQueue is a cross platform desktop application for managing compute resources on remote computers.
 
 Orange is a graphical interface for construction interactive workflows and performing data analysis and visualization.
 
@@ -502,6 +505,7 @@ Quantum Chemistry
 | Quantum espresso | <http://www.quantum-espresso.org>           |   GPL   |    A1    |          |
 | RMG              | <http://rmgdft.sourceforge.net>             | BSD/GPL |    A1    |          |
 | Siam Quantum     | <https://sites.google.com/site/siamquantum> |   GPL   |    A2    |          |
+| SMASH            | <https://sourceforge.net/projects/smash-qc/>|   BSD   |    B2    |          |
 
 ABINIT can calculate the total energy, charge density and electronic structure of molecules and periodic solids with density functional theory (DFT) and Many-Body Perturbation Theory (MBPT), using pseudopotentials and a planewave or wavelet basis. ABINIT also can optimize the geometry, perform molecular dynamics simulations, or generate dynamical matrices, Born effective charges, and dielectric tensors and many more properties.
 
@@ -544,6 +548,8 @@ QUANTUM ESPRESSO is designed for modeling at the nanoscale using DFT, plane wave
 RMG is a DFT code that uses real space grids to provide high scalability across thousands of processors and GPU acceleration for both structural relaxation and molecular dynamics.
 
 Siam Quantum (SQ) is optimized for parallel computation and its capabilities include the calculation of Hartree-Fock and MP2 energies, minimum energy crossing point calculations, geometry optimization, population analysis, and quantum molecular dynamics. DFT is available with various functionals such as the Dirac exchange, the VWN correlation, and the simplest yet accurate electron correlation energy, the so-called “Chachiyo's formula”.
+
+Scalable Molecular Analysis Solver for High-performance computing systems (SMASH) is massively parallel open-source software for Hartree-Fock and Density Functional Theory (DFT) calculations.
 
 Helper Applications
 -------------------
@@ -750,11 +756,15 @@ Docking and Scoring
 | ADplugin                 | <https://github.com/ADplugin>                          |   LGPL  |    A2    |          |
 | APBS                     | <http://www.poissonboltzmann.org>                      |   BSD   |    A1    |          |
 | AutoDock                 | <http://autodock.scripps.edu>                          |   GPL   |    C1    |          |
+| AutoDock GPU             | <https://github.com/ccsb-scripps/AutoDock-GPU>         |  Apache |    A2    |          |
 | AutoDock Vina            | <http://vina.scripps.edu>                              |  Apache |    C1    |          |
+| CABSdock                 | <https://bitbucket.org/lcbio/cabsdock/src/master/>     |   MIT   |    B2    |          |
 | Clusterizer-DockAccessor | <http://cheminf.com/software/clusterizer_dockaccessor> |   GPL   |    A3    |          |
 | DockoMatic               | <https://sourceforge.net/projects/dockomatic>          |   LGPL  |    B1    |          |
 | DOVIS                    | <http://bhsai.org/software>                            |   GPL   |    C2    |          |
 | idock                    | <https://github.com/HongjianLi/idock>                  |  Apache |    A2    |          |
+| FlexAID                  | <https://github.com/NRGlab/FlexAID>                    |  Apache |    C2    |          |
+| LightDock                | <https://lightdock.org/>                               |   GPL   |    A1    |          |
 | MOLA                     | <http://www.esa.ipb.pt/~ruiabreu/mola>                 |   GPL   |    C2    |          |
 | NNScore                  | <http://nbcr.ucsd.edu/data/sw/hosted/nnscore>          |   GPL   |    C1    |          |
 | Paradocks                | <https://github.com/cbaldauf/paradocks>                |   GPL   |    A2    |          |
@@ -774,7 +784,11 @@ APBS performs solvation free energy calculations using the Poisson-Boltzmann imp
 
 AutoDock is an automated docking program that uses a physics-based semiempirical scoring function mapped to atom type grids to evaluate poses and a genetic algorithm to explore the conformational space. It includes the ability to incorporate sidechain flexibility and covalent docking.
 
+AutoDock GPU is port of AutoDock Vina to take advantage of graphical processing units.
+
 AutoDock Vina is an entirely separate code base and approach from Autodock that was developed with a focus on runtime performance and ease of system setup. It uses a fully empirical scoring function and an iterated local search global optimizer to produce docked poses. It includes support for multi-threading and flexible sidechains.
+
+CABSdock is a standalone desktop application for docking of proteins to peptides which allows for large scale conformational changes.
 
 Clusterizer-DockAccessor are tools for accessing the quality of docking protocols. It interfaces with a number of open source and free tools.
 
@@ -782,7 +796,11 @@ DockoMatic provides a graphical user interface for setting up and analyzing Auto
 
 DOVIS is an extension of AutoDock 4.0 that provides more efficient parallelization of large virtual screening jobs.
 
+FlexAID is a small molecule-protein docking application. It can be run as a desktop application with a graphical user interface.
+
 idock is a multi-threaded docking program that includes support for the AutoDock Vina scoring function and a random forest scoring function. I can output per-atom free energy information for hotspot detection.
+
+LightDock is a protein-protein, protein-peptide and protein-DNA docking framework.
 
 MOLA is a pre-packaged distribution of AutoDock and AutoDock Vina for deployment on multi-platform computing clusters.
 
