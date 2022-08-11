@@ -866,7 +866,7 @@ Ligand Design
 |:--------------|:-------------------------------------------------|:-------:|:--------:|:--------:|
 | AutoClickChem | <https://sourceforge.net/projects/autoclickchem> |   GPL   |    C2    |          |
 | AutoGrow      | <http://autogrow.ucsd.edu>                       |   GPL   |    A1    |          |
-| DENOPTIM      | <https://github.com/denoptim-project/DENOPTIM>   |  AGPL   |    A3    |          |
+| DENOPTIM      | <https://github.com/denoptim-project/DENOPTIM>   |  AGPL   |    A3    | <https://doi.org/10.1021/acs.jcim.9b00516>  |
 | igrow         | <https://github.com/HongjianLi/igrow>            |  Apache |    A3    |          |
 | OpenGrowth    | <http://opengrowth.sf.net>                       |   GPL   |    A1    |          |
 
