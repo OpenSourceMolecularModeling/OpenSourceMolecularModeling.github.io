@@ -866,6 +866,7 @@ Ligand Design
 |:--------------|:-------------------------------------------------|:-------:|:--------:|:--------:|
 | AutoClickChem | <https://sourceforge.net/projects/autoclickchem> |   GPL   |    C2    |          |
 | AutoGrow      | <http://autogrow.ucsd.edu>                       |   GPL   |    A1    |          |
+| DENOPTIM      | <https://github.com/denoptim-project/DENOPTIM>   |  AGPL   |    A3    |          |
 | igrow         | <https://github.com/HongjianLi/igrow>            |  Apache |    A3    |          |
 | OpenGrowth    | <http://opengrowth.sf.net>                       |   GPL   |    A1    |          |
 
@@ -873,6 +874,8 @@ AutoClickChem performs *in silico* click chemistry to generate large libraries o
 
 AutoGrow uses a genetic algorithm to explore the space of reactants and reactions accessible via AutoClickChem and identifies compounds that dock well using AutoDock Vina.
 
+DENOPTIM is a package for de novo design and virtual screening of functional organic and inorganic molecules such as organometallic and transition metal catalysts and ligands.
+ 
 igrow, like AutoGrow, uses a genetic algorithm but transforms ligands using branch exchange and uses idock as the underlying docking evaluation protocol.
 
 OpenGrowth assembles candidate ligands by connecting small organic fragments in the active site of proteins. It includes a graphical user interface.
