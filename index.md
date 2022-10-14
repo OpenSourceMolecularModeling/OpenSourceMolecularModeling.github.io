@@ -83,6 +83,7 @@ Toolkits
 | ChemmineR            | <https://www.bioconductor.org/packages/release/bioc/html/ChemmineR.html> | Artistic |    A1    |          |
 | Cinfony              | <https://github.com/cinfony/cinfony>                                     |  BSD/GPL |    B1    |          |
 | CurlySMILES          | <http://www.axeleratio.com/csm/proj/main.htm>                            |    GPL   |    C2    |          |
+| DeepChem             | https://github.com/deepchem/deepchem                                     |    MIT   |    A1    |          |
 | DisCuS               | <https://github.com/mwojcikowski/discus>                                 |    GPL   |    B3    |          |
 | Fafoom               | <https://github.com/adrianasupady/fafoom>                                |   LGPL   |    A2    |          |
 | fmcsR                | <http://www.bioconductor.org/packages/fmcsR>                             | Artistic |    A1    |          |
@@ -127,6 +128,8 @@ ChemmineR is a cheminformatics package for the R statistical programming languag
 Cinfony provides a single, simple standardized interface to other cheminformatics toolkits, including Open Babel, RDKit, the CDK, Indigo, JChem, OPSIN, and several web services.
 
 CurlySMILES provides parsing functionality for an extension of the SMILES format that supports the description of complex molecular systems.
+
+DeepChem is a machine learning framework for chemical machine learning with growing support for materials science and bioinformatics. It includes featurization tools, reference differentiable layers, high quality model implementations, and extensive tutorials and documentation.
 
 DisCuS (Database System for Compound Selection) provides support for analyzing the results of a high-throughput screen.
 
