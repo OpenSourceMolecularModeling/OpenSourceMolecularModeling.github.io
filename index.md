@@ -92,6 +92,7 @@ Toolkits
 | Indigo               | <http://lifescience.opensource.epam.com/indigo>                          |    GPL   |    A1    |          |
 | JoeLib               | <http://sourceforge.net/projects/joelib>                                 |    GPL   |    C1    |          |
 | LICSS                | <https://github.com/KevinLawson/excel-cdk>                               |    GPL   |    A2    |          |
+| Mol-Rep-Haskell-Bayes| <https://github.com/oliverjgoldstein/Mol-Rep-Haskell-Bayes>              |   AGPL3  |    A2    |          |
 | MayaChemTools        | <http://www.mayachemtools.org>                                           |   LGPL   |    A2    |          |
 | Mychem               | <http://mychem.sourceforge.net>                                          |    GPL   |    B2    |          |
 | ODDT                 | <https://github.com/oddt/oddt>                                           |    BSD   |    A2    |          |
@@ -148,6 +149,8 @@ JOELib is a cheminformatics toolkit written in Java. Its capabilities include SM
 LICSS integrates with the CDK to provide representations and analysis of chemical data embedded within Microsoft Excel.
 
 MayChemTools is a collection of Perl scripts for manipulating chemical data, interfacing with databases, generating fingerprints, performing similarity search, and computing molecular properties.
+
+Mol-Rep-Haskell-Bayes provides a novel representation for molecules in general, aiming to replace strings as the standard of communication and representation of molecules. It also includes a method to use (lazy) probabilistic programming over the molecules which are represented in the functional programming language Haskell, where molecules are represented as Algebraic Data Types.
 
 Mychem is built using OpenBabel and provides an extension to the MySQL database package that adds the ability to search, analyze, and convert chemical data within a MySQL database.
 
