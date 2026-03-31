@@ -92,7 +92,8 @@ Toolkits
 | Indigo               | <http://lifescience.opensource.epam.com/indigo>                          |    GPL   |    A1    |          |
 | JoeLib               | <http://sourceforge.net/projects/joelib>                                 |    GPL   |    C1    |          |
 | LICSS                | <https://github.com/KevinLawson/excel-cdk>                               |    GPL   |    A2    |          |
-| MolADT-Bayes         | <https://github.com/oliverjgoldstein/MolADT-Bayes/>                      |   Custom |    A1    |          |
+| MolADT-Bayes-Haskell | <https://github.com/oliverjgoldstein/MolADT-Bayes-Haskell>               |    MIT   |    A1    |          |
+| MolADT-Bayes-Python  | <https://github.com/oliverjgoldstein/MolADT-Bayes-Python>                |    MIT   |    A1    |          |
 | MayaChemTools        | <http://www.mayachemtools.org>                                           |   LGPL   |    A2    |          |
 | Mychem               | <http://mychem.sourceforge.net>                                          |    GPL   |    B2    |          |
 | ODDT                 | <https://github.com/oddt/oddt>                                           |    BSD   |    A2    |          |
@@ -110,8 +111,7 @@ Toolkits
 | SMSD                 | <http://www.ebi.ac.uk/thornton-srv/software/SMSD>                        |   CCAL   |    B2    |          |
 | Som-it<sup>TM</sup>  | <http://silicos-it.be>                                                   |   LGPL   |    C3    |          |
 | webchem              | <https://github.com/ropensci/webchem>                                    |    MIT   |    A2    |          |
-| MolGears             | <https://github.com/admed/molgears>                                      |    BSD   |    B3    | 
-| 
+| MolGears             | <https://github.com/admed/molgears>                                      |    BSD   |    B3    |          |
 
 
 The Biochemical Algorithms Library (BALL) provides an object-oriented C++ library for structural bioinformatics, and its capabilities include molecular mechanics, support for reading and writing a variety of file formats, protein-ligand scoring, docking, and QSAR modeling.
@@ -150,7 +150,9 @@ LICSS integrates with the CDK to provide representations and analysis of chemica
 
 MayChemTools is a collection of Perl scripts for manipulating chemical data, interfacing with databases, generating fingerprints, performing similarity search, and computing molecular properties.
 
-Mol-Rep-Haskell-Bayes provides a novel representation for molecules in general, aiming to replace strings as the standard of communication and representation of molecules. It also includes a method to use (lazy) probabilistic programming over the molecules which are represented in the functional programming language Haskell, where molecules are represented as Algebraic Data Types.
+MolADT-Bayes-Haskell provides the Haskell-side MolADT implementation and the functional probabilistic-programming workflow built around molecules represented as algebraic data types. It focuses on representing molecules directly in Haskell ADTs and consuming aligned benchmark exports for Bayesian modeling in a lazy functional setting.
+
+MolADT-Bayes-Python provides the main Python benchmark and reporting suite for MolADT, including dataset preparation, ADT-native descriptor extraction, Bayesian baselines, timing benchmarks, and manuscript-style predictive comparisons. It is the primary repo for fair SMILES vs MolADT representation tests on FreeSolv and QM9 under shared tabular learners, with optional geometry-aware model branches.
 
 Mychem is built using OpenBabel and provides an extension to the MySQL database package that adds the ability to search, analyze, and convert chemical data within a MySQL database.
 
