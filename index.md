@@ -366,6 +366,7 @@ Web-Based Visualization
 | JSmol     | <https://sourceforge.net/projects/jsmol>  |   LGPL  |    A1    |          |
 | NGL       | <http://proteinformatics.charite.de/ngl>  |   MIT   |    A1    |          |
 | PV        | <https://biasmv.github.io/pv>             |   MIT   |    A1    |          |
+| Ketcher   | <https://github.com/epam/ketcher>         |   ALV2  |    A1    |          |
 
 3Dmol.js is a JavaScript library that provides WebGL-accelerated interactive 3D visualizations of molecular structures and surfaces.
 
@@ -384,6 +385,8 @@ JSmol is the JavaScript port of Jmol and does not require the Java plugin to run
 NGL is a WebGL-accelerated viewer and JavaScript library for interactive 3D visualization of macromolecules.
 
 PV (Protein Viewer) is a WebGL-accelerated viewer for interactive 3D visualization of macromolecules with a functional-style API.
+
+Ketcher is a web-based molecular editor fully written in Typescript. It enables the editing, opening, and saving of various files and provides a JavaScript API that enables integration in other web-based tools. It also supports macromolecules, 3D visualization, and more. 
 
 
 QSAR/ADMET Modeling
